@@ -1,0 +1,120 @@
+#logo{
+    border-radius: 110%;
+}
+#body{
+    padding-right: 200px;
+}
+#heros{
+    display: grid;
+}
+#my-image{
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin-top: -250px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.contact-me {
+    width: 100vw;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-me h1 {
+    font-size: 56px;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+  }
+  
+  .contact {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .contact-card {
+    background-color: #fec86a;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    margin-top: 7.5vh;
+  }
+#portfolio-container{
+    display: grid;
+}
+#portfolio-container1{
+    margin-top: 40px;
+    margin-left: 35%;
+}
+#portfolio-container2{
+    margin-top: -3px;
+    margin-left: 12.9%;
+}
+#portfolio-container3{
+    margin-left: 35%; 
+}
+#home-icons{
+    height: 10px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 120px;
+    padding-top: -80px;
+}   
+#red{
+    color: rgb(255, 0, 0);
+}
+#contact1{
+    margin-left: -20px;
+    padding-right: 0px;
+}
+#resume{
+    background-color: #fec86ab8;
+}
+#cards{
+    background-color: #fec86ab8;
+    margin-left: 20px;
+    position: relative;
+    right: -465px;
+}
+#my-image:hover{
+    animation: anime 3s forwards;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 10px -20px , rgba(0,0,0,.3)0px 3px ,rgba(10, 37, 64, .35) 0px -2px 6px 0px inset;
+}
+@keyframes anime{
+    0%{
+        scale: 100%;
+    }
+    20%{
+        scale: 105%;
+    }
+    40%{
+        scale: 100%;
+    }
+}
+#resume:hover{
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 10px -20px , rgba(0,0,0,.3)0px 3px ,rgba(10, 37, 64, .35) 0px -2px 6px 0px inset;
+}
+#cards:hover{
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 10px -20px , rgba(0,0,0,.3)0px 3px ,rgba(10, 37, 64, .35) 0px -2px 6px 0px inset;
+}
+#logo:hover{
+    cursor: pointer;
+    animation: animee 1s alternate;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 10px -20px , rgba(50,50,93,0.25) 0px 3px ,#fe6a79b8 0px -2px 6px 0px inset;
+}
+@keyframes animee{
+    0%{
+        scale: 100%;
+    }
+    40%{
+        scale: 150%;
+    }
+}
